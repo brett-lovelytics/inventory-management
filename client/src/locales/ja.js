@@ -6,8 +6,11 @@ export default {
     orders: '注文',
     finance: '財務',
     demandForecast: '需要予測',
+    reports: 'レポート',
     companyName: '触媒コンポーネンツ',
-    subtitle: '在庫管理システム'
+    subtitle: '在庫管理システム',
+    expandSidebar: 'サイドバーを展開',
+    collapseSidebar: 'サイドバーを折りたたむ'
   },
 
   // Dashboard
@@ -302,6 +305,25 @@ export default {
     dueDate: '期限',
     addTask: 'タスクを追加',
     noTasks: 'タスクがありません。上記からタスクを追加してください！'
+  },
+
+  // Purchase Order
+  purchaseOrder: {
+    createTitle: '発注書を作成',
+    viewTitle: '発注書の詳細',
+    supplierName: 'サプライヤー名',
+    supplierNamePlaceholder: 'サプライヤー名を入力...',
+    quantity: '数量',
+    unitCost: '単価',
+    expectedDeliveryDate: '納品予定日',
+    notes: '備考',
+    notesPlaceholder: '備考（任意）...',
+    status: 'ステータス',
+    createdDate: '作成日',
+    submit: '発注書を作成',
+    submitting: '作成中...',
+    submitError: '発注書の作成に失敗しました。もう一度お試しください。',
+    forItem: '対象アイテム'
   },
 
   // Language
